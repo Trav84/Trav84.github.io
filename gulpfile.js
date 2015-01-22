@@ -16,6 +16,17 @@ gulp.task('styles', function () {
     .pipe(gulp.dest('.tmp/styles'));
 });
 
+gulp.task('styles2', function () {
+  return gulp.src('app/styles/main.scss')
+    .pipe($.plumber())
+    .pipe($.rubySass({
+      style: 'expanded',
+      precision: 10
+    }))
+    .pipe($.autoprefixer({browsers: ['last 1 version']}))
+    .pipe(gulp.dest('dist/styles'));
+});
+
 gulp.task('jshint', function () {
   return gulp.src('app/scripts/**/*.js')
     .pipe($.jshint())
@@ -119,7 +130,7 @@ gulp.task('watch', ['connect'], function () {
   gulp.watch('bower.json', ['wiredep']);
 });
 
-gulp.task('build', ['jshint', 'html', 'images', 'fonts', 'extras'], function () {
+gulp.task('build', ['jshint', 'html', 'images', 'fonts', 'extras', 'styles2'], function () {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
