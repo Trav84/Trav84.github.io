@@ -2,6 +2,7 @@
 'use strict';
 // generated on 2015-01-20 using generator-gulp-webapp 0.2.0
 var gulp = require('gulp');
+var deploy = require('gulp-gh-pages');
 var $ = require('gulp-load-plugins')();
 
 gulp.task('styles', function () {
@@ -124,4 +125,12 @@ gulp.task('build', ['jshint', 'html', 'images', 'fonts', 'extras'], function () 
 
 gulp.task('default', ['clean'], function () {
   gulp.start('build');
+});
+
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
 });
