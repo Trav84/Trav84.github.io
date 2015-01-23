@@ -1,4 +1,4 @@
-var slotArray = ["../images/number1.jpg","../images/number2.jpg","../images/number3.jpg"];
+var slotArray = ["../IMAGES/number1.jpg","../IMAGES/number2.jpg","../IMAGES/number3.jpg"];
 var winCount = 0;
 var lossCount = 0;
 
