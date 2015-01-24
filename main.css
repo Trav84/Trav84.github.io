@@ -4843,9 +4843,11 @@ body {
     display: block; }
   .top-menu-bar ul {
     padding-left: 0; }
+  .top-menu-bar #menu3 {
+    margin-top: 0; }
   .top-menu-bar li {
     font-family: Open Sans Condensed;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
     color: #333333;
     display: inline-block;
@@ -4860,7 +4862,7 @@ body {
   .top-menu-bar img {
     background-color: #333333;
     display: block;
-    width: 100%; }
+    width: 80%; }
   .top-menu-bar #img1 {
     margin: 0em 0.2em; }
   .top-menu-bar #img2 {
