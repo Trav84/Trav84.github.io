@@ -4925,7 +4925,8 @@ body {
   .project-box img {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    width: 100%; }
+    width: 100%;
+    border: 1px solid black; }
   .project-box h2 {
     font-size: 1em;
     margin-top: 1em; }
