@@ -1,0 +1,16 @@
+
+.instructions {
+  text-align: center;
+  margin:0 auto;
+}
+
+ol {
+  list-style:none;
+}
+
+#score-box {
+	font-size: 4em;
+	font-weight: 500;
+}
+
+/*# sourceMappingURL=style.css.map */
