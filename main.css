@@ -4937,6 +4937,9 @@ body {
 .image-wrapper {
   background-color: #cccccc; }
 
+#top-menu-bar-2 {
+  display: none; }
+
 /* CSS for medium devices ≥768px */
 @media (min-width: 768px) {
   .left-section {
@@ -4944,10 +4947,28 @@ body {
     width: 60%;
     height: 100%;
     overflow-y: scroll; }
+    .left-section h1 {
+      margin-bottom: 1em; }
   .right-section {
     float: left;
     width: 40%;
     overflow-y: scroll;
     height: 100%; }
   html, body {
-    height: 100%; } }
+    height: 100%; }
+  .last-work {
+    border-top: none; }
+    .last-work h2 {
+      display: none; }
+    .last-work .bar {
+      display: none; }
+    .last-work li {
+      font-size: 1.6em;
+      font-weight: 100;
+      padding-top: 2em; }
+  #top-menu-bar-2 {
+    display: block; }
+  .top-menu-bar {
+    display: none; }
+    .top-menu-bar li {
+      border-bottom: none; } }
