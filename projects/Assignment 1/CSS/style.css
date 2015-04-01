@@ -1,0 +1,313 @@
+body {
+
+}
+
+/* Logo and navigation */
+
+.logo a {
+	text-decoration: none;
+	display: inline-block;
+	color: #526066;
+	font-family: sans-serif;
+	font-size: 90%;
+	margin: 10px 20px 8px 20px;
+	width: 100px;
+}
+
+.logo {
+	width: 140px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #526066;
+	font-family: sans-serif;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a:hover {
+	background-color: #ddd;
+}
+
+.menu {
+	width: 300px;
+}
+
+.pricing a {
+	color: black;
+}
+
+/* Banner */
+
+.banner {
+	background-image: url(http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg);
+	height: 200px;
+	margin-bottom: 48px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.image-text {
+	text-align: center;
+	color: #ffffff;
+	font-size: 32px;
+	font-family: sans-serif;
+	font-weight: 500;
+	padding-top: 68px;
+	text-shadow: rgb(0, 0, 0) 0px 1px 1px;
+}
+
+
+
+/* Pricing boxes */
+
+
+.container {
+	text-align: center;
+}
+
+#green {
+	background-color: #519251;
+}
+
+#blue {
+	background-color: #2c4985;
+}
+
+#black {
+	background-color: #000000;
+}
+
+.box-header {
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 4px;
+	color: #fff;
+	padding-top: 32px;
+	margin-bottom: 8px;
+}
+
+.box-price {
+	font-size: 96px;
+	color: #fff;
+	margin-bottom: 3px;
+	font-weight: 100;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.box-footer {
+	text-transform: uppercase;
+	font-size: 19px;
+	padding-bottom: 32px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.5);
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.pricing-options {
+	margin: 0 8px 32px 8px;
+}
+
+.lists {
+	font-size: 16px;
+	/*margin: 0 8px 32px 8px;*/
+
+}
+
+.lists li {
+	text-align: center;
+	background-color: #f7f7f7;
+	color: rgb(82, 96, 102);
+	border-color: #e7e7e7;
+	border-width: 1px;
+	border-style: solid;
+	border-top: 0;
+	padding: 12px 0;
+	font-family: sans-serif;
+}
+
+.buttonBox {
+	margin: 0 auto;
+	text-align: center;
+	border-color: #e7e7e7;
+	border-width: 1px;
+	border-style: solid;
+	border-top: 0;
+	padding-bottom: 48px;
+	font-size: 16px;
+
+
+}
+
+button {
+	border-radius: 32px;
+	border-color: #e7e7e7;
+	border-style: solid;
+	background-color: #ffffff;
+	font-weight: bold;
+	position: relative;
+	bottom: -24px;
+	padding: 8px 16px;
+	font-size: 100%;
+	border-width: 1px;
+}
+
+button:hover {
+	cursor: pointer;
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(242,242,242,1) 69%, rgba(242,242,242,1) 81%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(10%, rgba(255,255,255,1)), color-stop(69%, rgba(242,242,242,1)), color-stop(81%, rgba(242,242,242,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(242,242,242,1) 69%, rgba(242,242,242,1) 81%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(242,242,242,1) 69%, rgba(242,242,242,1) 81%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(242,242,242,1) 69%, rgba(242,242,242,1) 81%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(242,242,242,1) 69%, rgba(242,242,242,1) 81%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0 );
+}
+
+/* Desciptions */
+
+section {
+	margin: 0 auto;
+	padding: 8px 32px;
+}
+
+.lowerh  {
+	font-size: 19px;
+	font-weight: 500;
+	letter-spacing: 4.6px;
+	font-family: sans-serif;
+	margin: 18px 0;
+}
+
+div p {
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 25.6px;
+	margin: 16px 0;
+	margin-bottom: 50px;
+	color: rgb(82, 96, 102);
+
+}
+
+#lastp {
+	margin-bottom: 18px;
+}
+
+footer {
+	background-color: black;
+	color:#888;
+	font-family:sans-serif;
+	line-height: 1.6em;
+	text-align: center;
+	padding: 8px 32px;
+}
+
+footer a {
+	color: #ddd;
+}
+
+footer p {
+	margin: 16px 0;
+}
+
+
+
+
+
+
+
+.purple {
+	background-color: purple;
+	
+}
+
+.margin1 {
+	background-color: white;
+	padding: 0 7.5px;
+}
+
+.green {
+	background-color: green;
+
+}
+
+.blue {
+	background-color: blue;
+}
+
+.margin2 {
+	background-color: white;
+	padding: 8px 32px;
+}
+
+.yellow {
+	background-color: yellow;
+
+
+}
+
+.black {
+	background-color: black;
+	height: 82px;
+}
+
+/* CSS for medium devices ≥768px */
+@media (min-width: 768px) {
+	
+	.margin1 {
+		font-size: 0;
+	}
+	
+	.pricing-option{
+		width: 33%;
+		display: inline-block;
+
+	}
+
+	.logo {
+		display:inline-block;
+	}
+
+	.menu {
+		display:inline-block;
+	}
+
+	.subprice {
+		margin: 0 8px;
+	}
+
+	.bottominfo div >div {
+		display:inline-block;
+		margin: 0 32px;
+		
+	}
+
+	#lastp {
+		margin-bottom: 0px;
+	}
+
+	.fixedbox {
+		width:49%;
+		display:inline-block;
+		vertical-align: top;
+	}
+
+}
+
+/* CSS for medium devices 992px */
+@media (min-width: 992px) {
+
+
+	.margin1 {
+		margin: 0 auto;
+		max-width: 980px;
+	}
+
+}
